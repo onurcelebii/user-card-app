@@ -12,6 +12,7 @@ import "semantic-ui-css/semantic.min.css";
 
 const UserEditCard = () => {
   const baseURL = "https://gorest.co.in/public/v2/users";
+  
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
